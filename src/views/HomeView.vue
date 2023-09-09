@@ -1,9 +1,12 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+  import ContButton from '../components/ContButton.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <div>
+      <h1>Home</h1>
+      <ContButton />
+    </div>
   </main>
 </template>

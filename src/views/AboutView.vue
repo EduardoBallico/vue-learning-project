@@ -1,6 +1,11 @@
+<script setup>
+import { ContButton } from '../components/ContButton.vue'
+</script>
+
 <template>
   <div class="about">
     <h1>This is an about page</h1>
+    <ContButton />
   </div>
 </template>
 
