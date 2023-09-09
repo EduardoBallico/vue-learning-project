@@ -1,6 +1,4 @@
 <script setup>
-import ContButton from './ContButton.vue';
-
 defineProps({
   msg: {
     type: String,
@@ -13,11 +11,10 @@ defineProps({
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      You've successfully created a project with
+      You’ve successfully created a project with
       <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
       <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
     </h3>
-    <ContButton />
   </div>
 </template>
 
