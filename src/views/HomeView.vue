@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div>
+    <div class="about">
       <h1>Home</h1>
       <ContButton />
     </div>
@@ -12,7 +12,7 @@
 </script>
 
 <style scoped>
-  main {
+  .about {
     min-height: 100vh;
     display: flex;
     align-items: center;
