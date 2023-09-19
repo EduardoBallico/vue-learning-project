@@ -14,7 +14,7 @@
   defineProps({
     options: {
       type: Array,
-      default: () =>["banana", "apple", "grape"]
+      default: () =>["banana", "apple", "grape", "orange", "watermelon"]
     }
   })
 
